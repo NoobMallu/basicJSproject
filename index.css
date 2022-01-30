@@ -1,0 +1,50 @@
+body{
+    background-color:bisque;
+    font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+}
+
+h1{
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 10px;
+    text-align: center;
+}
+
+h2{
+    font-size: 26px;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+}
+
+.container{  
+    text-align: center;  
+ 
+    padding-top: 100px;  
+    }  
+
+
+#increment-btn{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px;
+    text-align : center;
+    background-color: green;
+}
+
+#decrement-btn{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px;
+    align-items : center;
+    background-color: rgb(85, 7, 7);
+}
+
+#reset-btn{
+    width:150px;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px;
+    align-items : center;
+    background-color: rgb(3, 35, 44);
+}
