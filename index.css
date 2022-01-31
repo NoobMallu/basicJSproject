@@ -48,3 +48,16 @@ h2{
     align-items : center;
     background-color: rgb(3, 35, 44);
 }
+p{
+    font-size : 22px;
+    text-align: center;
+}
+
+#save-btn{
+    width:150px;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px;
+    align-items : center;
+    background-color: rgb(219, 117, 58);
+}

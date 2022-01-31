@@ -1,5 +1,5 @@
 //Making our html page alive by using javascript in it
-
+let saveEl = document.getElementById("save-el")
 let countEl = document.getElementById("count-el")
 console.log(countEl)
 
@@ -20,4 +20,9 @@ function decremento() {
 function reseto() {
     count = count - count
     countEl.innerText = count
+}
+
+function save() {
+    saveStr = " " + count + " - "
+    saveEl.innerText += saveStr 
 }
